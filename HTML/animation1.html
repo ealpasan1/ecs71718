@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animations Example</title>
+    </head>
+    <body>
+        <center>
+            <div>
+            <h1>Hello Class!</h1>
+            </div>
+        </center>
+    </body>
+    <style>
+    @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+       @keyframes example {
+            
+            0%   {color: red;}
+            10%  {color: purple;}
+            25%  {color: yellow;}
+            30%  {color: orange;}
+            50%  {color: blue;}
+            75%  {color: pink;}
+            100% {color: green;}
+        }
+        div {
+        color: red;
+        -webkit-animation-name: example; 
+        -webkit-animation-duration: 4s;
+        animation-name: example;
+        animation-duration: 10s;
+}
+h1 {
+    padding-top: 300px;
+    padding-right: 30px;
+    padding-bottom: 300px;
+    padding-left: 80px;
+}
+    </style>
+</html>
