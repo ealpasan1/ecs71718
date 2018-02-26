@@ -39,13 +39,13 @@
             <br>
             <br>
             <button>
-                <a href=http://www.audubon.org/bird-family/herons-egrets-bitterns class="button">Herons, Egrets, and Bitterns</a>
+                <a href=http://www.audubon.org/bird-family/herons-egrets-bitterns data-toggle=popover data-title="This website can:" data-content="show you pictures and sounds of different types of herons (also called egrets or bitterns)." data-trigger=hover class="button">Herons, Egrets, and Bitterns</a>
             </button>
             <button>
-                <a href=https://www.allaboutbirds.org/guide/Great_Blue_Heron/id class="button">Heron Identification</a>
+                <a href=https://www.allaboutbirds.org/guide/Great_Blue_Heron/id data-toggle=popover data-title="This website can:" data-content="help you identify and differentiate different types of herons." data-trigger=hover class="button">Heron Identification</a>
             </button>
             <button>
-                <a href=https://a-z-animals.com/animals/heron/ class=button>More Herons</a>
+                <a href=https://a-z-animals.com/animals/heron/ data-toggle=popover data-title="This website can:" data-content="give you some general information about herons, as well as where they are found and their sizes." data-trigger=hover class=button>More Herons</a>
             </button>
         </div>
         <div id=hi class="jumbotron text-center">
@@ -161,4 +161,15 @@
         #section3 {background-color: mistyrose;}
         #section4 {background-color: mistyrose;}
     </style>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+</script>
 </html>
